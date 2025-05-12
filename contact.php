@@ -2,8 +2,8 @@
 // Database configuration
 $host = 'localhost';
 $dbname = 'portfolio';
-$username = 'your_username';
-$password = 'your_password';
+$username = '';
+$password = '';
 
 try {
     $conn = new mysqli($host, $username, $password, $dbname);
